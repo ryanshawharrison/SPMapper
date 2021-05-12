@@ -1,0 +1,13 @@
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\SPMapper.exe
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\SPMapper.deps.json
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\SPMapper.runtimeconfig.json
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\SPMapper.runtimeconfig.dev.json
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\SPMapper.dll
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\SPMapper.pdb
+C:\Users\Ryan\SPMapper\obj\Debug\netcoreapp3.1\SPMapper.csprojAssemblyReference.cache
+C:\Users\Ryan\SPMapper\obj\Debug\netcoreapp3.1\SPMapper.AssemblyInfoInputs.cache
+C:\Users\Ryan\SPMapper\obj\Debug\netcoreapp3.1\SPMapper.AssemblyInfo.cs
+C:\Users\Ryan\SPMapper\obj\Debug\netcoreapp3.1\SPMapper.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\SPMapper\obj\Debug\netcoreapp3.1\SPMapper.dll
+C:\Users\Ryan\SPMapper\obj\Debug\netcoreapp3.1\SPMapper.pdb
+C:\Users\Ryan\SPMapper\obj\Debug\netcoreapp3.1\SPMapper.genruntimeconfig.cache
