@@ -7,6 +7,15 @@ namespace SPMapper
         private char drvLetter;
         private String uncPath;
 
+        public SPDrive()
+        {
+            // do nothing
+        }
+        public SPDrive(char newDrvLetter, String newUncPath)
+        {
+            drvLetter = newDrvLetter;
+            uncPath = newUncPath;
+        }
         public void mapDrive()
         {
             String cmdArgs = "/C net use " + drvLetter.ToString() + ": " + uncPath + " /persistent:yes";
