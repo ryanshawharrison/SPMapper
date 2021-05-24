@@ -7,14 +7,13 @@ namespace SPMapper
         static void Main(string[] args)
         {
             // testing/debug code
-            SPDrive myDrive = new SPDrive();
+            SPDrive Z = new SPDrive();
 
-            myDrive.setUncPath("\\\\myserver\\share");
-            myDrive.setUsername("Ryan");
-            myDrive.setPassword("P@ssw0rd");
-            myDrive.SetPersist(true);
+            Z.setDrvLetter('Z');
+            Z.setUncPath("\\\\localhost\\SPMapper");
 
-            Console.WriteLine("Mapping drive: {0}, using username {1} and password {2}, perist: {3}", myDrive.getUncPath(), myDrive.getUsername(), myDrive.getPassword(), myDrive.getPersist().ToString());
+            Console.WriteLine("Mapping UNC path: {0}, as {1}: drive.", Z.getUncPath(), Z.getDrvLetter());
+            Z.mapDrive();
         }
     }
 }

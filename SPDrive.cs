@@ -4,14 +4,26 @@ namespace SPMapper
 {
     class SPDrive
     {
+        private char drvLetter;
         private String uncPath;
-        private String username;
-        private String password;
-        private Boolean persist;
 
-        
+        public void mapDrive()
+        {
+            String cmdArgs = "/C net use " + drvLetter.ToString() + ": " + uncPath + " /persistent:yes";
+            System.Diagnostics.Process.Start("cmd.exe", cmdArgs);
+        }
 
         // getters and setters
+        public String getDrvLetter()
+        {
+            return drvLetter.ToString();
+        }
+
+        public void setDrvLetter(char newDrvLetter)
+        {
+            drvLetter = newDrvLetter;
+        }
+        
         public String getUncPath()
         {
             return uncPath;
@@ -20,36 +32,6 @@ namespace SPMapper
         public void setUncPath(String newUncPath)
         {
             uncPath = newUncPath;
-        }
-
-        public String getUsername()
-        {
-            return username;
-        }
-
-        public void setUsername(String newUsername)
-        {
-            username = newUsername;
-        }
-
-        public String getPassword()
-        {
-            return password;
-        }
-
-        public void setPassword(String newPassword)
-        {
-            password = newPassword;
-        }
-
-        public Boolean getPersist()
-        {
-            return persist;
-        }
-
-        public void SetPersist(Boolean newPersist)
-        {
-            persist = newPersist;
         }
     }
 }
