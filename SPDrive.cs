@@ -23,24 +23,9 @@ namespace SPMapper
         }
 
         // getters and setters
-        public String getDrvLetter()
-        {
-            return drvLetter.ToString();
-        }
-
-        public void setDrvLetter(char newDrvLetter)
-        {
-            drvLetter = newDrvLetter;
-        }
-        
-        public String getUncPath()
-        {
-            return uncPath;
-        }
-
-        public void setUncPath(String newUncPath)
-        {
-            uncPath = newUncPath;
-        }
+        public String getDrvLetter() {return drvLetter.ToString();}
+        public void setDrvLetter(char newDrvLetter) {drvLetter = newDrvLetter;}
+        public String getUncPath() {return uncPath;}
+        public void setUncPath(String newUncPath) {uncPath = newUncPath;}
     }
 }
