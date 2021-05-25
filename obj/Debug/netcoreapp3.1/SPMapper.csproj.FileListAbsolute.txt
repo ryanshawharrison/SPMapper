@@ -11,3 +11,12 @@ C:\Users\Ryan\SPMapper\obj\Debug\netcoreapp3.1\SPMapper.csproj.CoreCompileInputs
 C:\Users\Ryan\SPMapper\obj\Debug\netcoreapp3.1\SPMapper.dll
 C:\Users\Ryan\SPMapper\obj\Debug\netcoreapp3.1\SPMapper.pdb
 C:\Users\Ryan\SPMapper\obj\Debug\netcoreapp3.1\SPMapper.genruntimeconfig.cache
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Table.dll
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\Microsoft.Azure.DocumentDB.Core.dll
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\Microsoft.OData.Core.dll
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\Microsoft.OData.Edm.dll
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\Microsoft.Spatial.dll
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\Cosmos.CRTCompat.dll
+C:\Users\Ryan\SPMapper\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\Ryan\SPMapper\obj\Debug\netcoreapp3.1\SPMapper.csproj.CopyComplete
